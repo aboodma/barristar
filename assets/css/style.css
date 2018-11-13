@@ -168,7 +168,7 @@ a:focus {
 }
 
 .back-to-top:hover {
-    background-color: #c0b596;
+    background-color: #dec66d;
 }
 
 .back-to-top i {
@@ -206,7 +206,7 @@ header-style
 
 .header-top li i {
     padding-right: 10px;
-    color: #cbbc99;
+    color: #dec66d;
 }
 
 .header-contact li:first-child {
@@ -220,7 +220,7 @@ header-style
     top: 14px;
     width: 1px;
     height: 25px;
-    background: #c0b596;
+    background: #dec66d;
 }
 
 .header-area {
@@ -268,7 +268,7 @@ header-style
 
 .main-menu nav ul li:hover>a,
 .main-menu nav ul li.active>a {
-    color: #c0b596;
+    color: #dec66d;
 }
 
 .main-menu .submenu {
@@ -313,7 +313,7 @@ header-style
     left: 0;
     top: 0;
     width: 100%;
-    background: #2c3454;
+    background: #001024;
     z-index: 1200;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, .1);
     -moz-box-shadow: 0px 1px 5px rgba(0, 0, 0, .1);
@@ -406,7 +406,7 @@ mobile menu
 }
 
 .btn-style a {
-    background-color: #c0b596;
+    background-color: #dec66d;
     font-size: 16px;
     font-weight: 600;
     color: #fff;
@@ -618,7 +618,7 @@ mobile menu
 
 .hero .slick-prev:hover,
 .hero .slick-next:hover {
-    background: #c0b596;
+    background: #dec66d;
     border-color: #fff;
 }
 
@@ -636,7 +636,7 @@ mobile menu
 }
 
 .hero .slick-dots button {
-    background-color: #c0b596;
+    background-color: #dec66d;
     width: 14px;
     height: 14px;
     border: 1px solid #fff;
@@ -692,7 +692,7 @@ mobile menu
 
 .hero-style-1 .slide-caption p span,
 .hero-style-2 .slide-caption p span {
-    color: #c0b596;
+    color: #dec66d;
 
 }
 
@@ -740,7 +740,7 @@ mobile menu
 }
 
 .service-icon .fi {
-    color: #c0b596;
+    color: #dec66d;
 }
 
 .service-text span {
@@ -759,9 +759,9 @@ mobile menu
 }
 #plane{
     font-size: 60px;
-    color: #c0b596;
+    color: #dec66d;
     padding: 10px 15px 20px 16px;
-    margin-top: 5px;    
+    margin-top: 5px;
 }
 
 .service-area.service-area2 .service-icon {
@@ -803,7 +803,7 @@ mobile menu
     top: 92px;
     width: 557px;
     height: 2px;
-    background: #b9964e;
+    background: #cccccc;
 }
 .title h2:before {
     content: "";
@@ -812,7 +812,7 @@ mobile menu
     top: 94px;
     width: 181px;
     height: 2px;
-    background: #e2cb72;
+    background: #dec470;
 }
 
 .about-area .about-title {
@@ -826,7 +826,7 @@ mobile menu
 
 .about-title :before {
     content: "";
-    background-color: #c0b596;
+    background-color: #dec66d;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -836,7 +836,7 @@ mobile menu
 }
 .img-holder:before {
     content: "";
-    background-color: #c0b596;
+    background-color: #dec66d;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -848,7 +848,7 @@ mobile menu
 
 .overlay {
     position: relative;
-    left: 268px;
+
 }
 
 .overlay:before {
@@ -863,8 +863,8 @@ mobile menu
 }
 
 .social-1st {
-    position: absolute;
-   left: -214px;
+
+
     top: 0;
     width: 100%;
     height: 100%;
@@ -877,10 +877,10 @@ mobile menu
 }
 
 .social-1st i {
-    border: 1px solid #fff;
-    padding: 20px;
-    border-radius: 100%;
-    color: #fff;
+  border: 3px solid #fff;
+padding: 31px;
+border-radius: 100%;
+color: #fff;
 }
 
 /*======================================
@@ -890,7 +890,10 @@ mobile menu
     padding: 95px 0 65px;
     background: url(../images/practice/1.jpg) no-repeat center center / cover;
     position: relative;
+    background-attachment: fixed;
+
 }
+
 
 .practice-area:before {
     content: "";
@@ -928,7 +931,7 @@ mobile menu
     bottom: 0;
     width: 60px;
     height: 3px;
-    background: #c0b596;
+    background: #dec66d;
 }
 
 .section-title2 h2 {
@@ -963,7 +966,7 @@ mobile menu
     bottom: 33px;
     width: 1px;
     height: 65px;
-    background: #c0b596;
+    background: #dec66d;
 }
 
 .practice-area.practice-style-1 {
@@ -1012,7 +1015,7 @@ mobile menu
     bottom: 0;
     width: 30px;
     height: 2px;
-    background: #c0b596;
+    background: #dec66d;
 }
 
 .practice-area.practice-style-1 .service-text p {
@@ -1081,7 +1084,7 @@ mobile menu
 }
 
 .studies-menu button.active {
-    color: #c0b596;
+    color: #dec66d;
 }
 
 .studies-item {
@@ -1115,7 +1118,7 @@ mobile menu
     width: 90%;
     height: 90%;
     position: absolute;
-    border: 2px solid #c0b596;
+    border: 2px solid #dec66d;
     z-index: 95;
     text-align: center;
     display: flex;
@@ -1135,11 +1138,11 @@ mobile menu
     bottom: -30px;
     width: 60px;
     height: 3px;
-    background: #c0b596;
+    background: #dec66d;
 }
 
 .studies-item .overlay-text .text-inner .sub {
-    color: #c0b596;
+    color: #dec66d;
 }
 
 /*===================================
@@ -1167,7 +1170,7 @@ mobile menu
     top: 5px;
     content: "\f10d";
     font-family: 'FontAwesome';
-    color: #c0b596;
+    color: #dec66d;
     font-size: 30px;
 }
 
@@ -1227,7 +1230,7 @@ mobile menu
 }
 
 .testimonial-slide .owl-dot.active {
-    background: #c0b596;
+    background: #dec66d;
 }
 
 /*========================================
@@ -1235,7 +1238,7 @@ mobile menu
 =========================================*/
 .contact-text .date {
     font-size: 18px;
-    color: #c0b596;
+    color: #dec66d;
 }
 
 .contact-text p {
@@ -1249,10 +1252,10 @@ mobile menu
 }
 
 .contact-area {
-    background: url("../images/contact/1.jpg") center center/cover no-repeat local;
-    position: relative;
-    background-attachment: fixed;
-    padding-bottom: 55px;
+	background: url("../images/about/1.jpg") center center/cover no-repeat local;
+	position: relative;
+	background-attachment: fixed;
+	padding-bottom: 55px;
 }
 
 .contact-area:before {
@@ -1337,7 +1340,7 @@ mobile menu
 .contact-area-s2 form textarea:focus {
     -webkit-box-shadow: none;
     box-shadow: none;
-    border-color: #c0b596;
+    border-color: #dec66d;
 }
 
 
@@ -1394,7 +1397,7 @@ mobile menu
 .theme-btn-s2,
 .theme-btn-s3,
 .theme-btn-s4 {
-    background-color: #c0b596;
+    background-color: #dec66d;
     font-size: 15px;
     font-weight: 700;
     color: #fff;
@@ -1477,7 +1480,7 @@ mobile menu
 }
 
 .expert-content ul li a {
-    color: #c0b596;
+    color: #dec66d;
 }
 
 .col-p {
@@ -1485,7 +1488,7 @@ mobile menu
 }
 
 .expert-active .owl-nav div {
-   
+
     position: absolute;
     left: -70px;
     top: 50%;
@@ -1529,7 +1532,7 @@ mobile menu
 .counter-area .counter-grids .grid p {
     font-size: 18px;
     font-weight: normal;
-    color: #c0b596;
+    color: #dec66d;
     padding-top: 10px;
 }
 
@@ -1560,12 +1563,12 @@ mobile menu
     padding-bottom: 100px;
 }
 .blog-area {
-    background: #f5f5f5;
+    background: #fff;
 }
 
 .blog-content {
     padding: 20px 30px 30px;
-    background: #fff;
+    background: #f5f5f5;
 }
 
 .blog-content h3 {
@@ -1580,7 +1583,7 @@ mobile menu
 }
 
 .blog-content h3 a:hover {
-    color: #c0b596;
+    color: #dec66d;
 }
 
 .blog-content ul li {
@@ -1589,17 +1592,17 @@ mobile menu
 }
 
 .blog-content ul li a {
-    
+
     color: #000;
     transition: all .3s;
 }
 
 .blog-content ul li {
-    color: #c0b596;
+    color: #dec66d;
 }
 
 .blog-content ul li a:hover {
-    color: #c0b596;
+    color: #dec66d;
 }
 
 .blog-img img {
@@ -1636,7 +1639,7 @@ mobile menu
 }
 
 .blog-area .blog-item .post-meta .clr {
-    color: #c0b596;
+    color: #dec66d;
 }
 
 .blog-area .blog-item .post-meta>li:first-child {
@@ -1644,7 +1647,7 @@ mobile menu
 }
 
 .blog-area .blog-item .post-meta>li a {
-    
+
     color: #666;
 }
 
@@ -1680,47 +1683,37 @@ mobile menu
 
 .newsletter h3 {
     font-family: 'Changa', sans-serif;
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 500;
-    margin-bottom: 40px;
-    color: #fff;
+    margin-bottom: 25px;
+    color: #051024;
 }
 .newsletter p {
     font-family: 'Changa', sans-serif;
-    
-    color: #fff;
+
+    color: #051024;
 }
 .newsletter  i  {
-   font-size: 25px;
-    
-    color: #fff;
+   font-size: 20px;
+
+    color: #051024;
 }
 .newsletter  span  {
-    
-   font-size: 25px;
-    
-    color: #fff;
+
+   font-size: 20px;
+
+    color: #051024;
 }
 .social-marks{
     margin-top: 15px;
 }
 .social-marks span{
-    border-bottom-width: 2px;
-border-bottom-style: solid;
-border-top-width: 2px;
-border-top-style: solid;
-border-left-width: 2px;
-border-left-style: solid;
-border-right-width: 2px;
-border-right-style: solid;
-padding-left: 5px;
-padding-right: 5px;
-padding-bottom: 0px;
-    margin-left: 2px;
+  border: 3px solid #fff;
+    border-radius: 100%;
 }
 .social-marks span:hover{
     background: #f2de7e;
-     
+
 }
 .social-marks i:hover{
     transform: rotateY(60deg);
@@ -1729,8 +1722,8 @@ padding-bottom: 0px;
 
 
 .social-newsletter-section {
-    padding: 70px 0 80px;
-    background: #272c3f;
+    padding: 20px 0 20px;
+    background: #f5f5f5;
 }
 
 .newsletter {
@@ -1743,8 +1736,8 @@ padding-bottom: 0px;
 }
 
 .social-newsletter-section .newsletter button {
-    background: rgba(192, 181, 150);
-    color: #fff;
+    background: rgba(222, 198, 109);
+    color: #080a1f;
     border: 0;
     outline: 0;
     position: absolute;
@@ -1754,25 +1747,25 @@ padding-bottom: 0px;
     height: 50px;
 }
 .blog-content button{
-    background: rgba(192, 181, 150);
+    background: rgba(222, 198, 109);
     color: #fff;
     border: 10px;
     outline: 0;
-   
+
     right: 0;
     top: 0;
-    width: 291px;
+    width: 237px;
     height: 50px;
 }
 .blog-content button:hover{
-    background: #2c3454;
-    color: #c0b596;
+    background: #001024;
+    color: #dec66d;
     transition: all 0.5s;
 }
 
 
 .social-newsletter-section .newsletter button:hover {
-    background: #c0b596;
+    background: #dec66d;
 }
 
 .social-newsletter-section .newsletter input {
@@ -1841,17 +1834,17 @@ padding-bottom: 0px;
 }
 
 .footer-bottom-content {
-   
-    
+
+
     border-top: 1px solid rgba(192, 181, 150, .3);
-    padding: 30px 0;
+    padding: 20px 0;
 }
 
 .footer-bottom-content span {
      font-family: "Changa",sans-serif;
     color: #ead793;
     font-size: 25px;
-    
+
 }
 
 .footer-bottom-content ul {
@@ -1906,7 +1899,7 @@ padding-bottom: 0px;
 }
 
 .icon-c {
-    background: #c0b596;
+    background: #dec66d;
     height: 100px;
     max-width: 100px;
     text-align: center;
@@ -2038,11 +2031,11 @@ padding-bottom: 0px;
 }
 
 .breadcumb-wrap ul li a:hover {
-    color: #c0b596;
+    color: #dec66d;
 }
 
 .breadcumb-wrap ul li:last-child {
-    color: #c0b596;
+    color: #dec66d;
 }
 
 .breadcumb-wrap ul li:after {
@@ -2106,7 +2099,7 @@ padding-bottom: 0px;
 .practice-area.practice-area2 .service-icon:after {
     position: absolute;
     content: "";
-    background: #c0b596;
+    background: #dec66d;
     bottom: 0;
     width: 65px;
     height: 1px;
@@ -2172,7 +2165,7 @@ padding-bottom: 0px;
 }
 
 .pricing-icon .fi {
-    color: #c0b596;
+    color: #dec66d;
     transition: all .3s;
 
 }
@@ -2186,7 +2179,7 @@ padding-bottom: 0px;
 }
 
 .pricing-item:hover {
-    background: #c0b596;
+    background: #dec66d;
     color: #fff;
 }
 
@@ -2224,7 +2217,7 @@ padding-bottom: 0px;
 
 .pricing-item:hover .pricing-text .btn-style a {
     background: #fff;
-    color: #c0b596;
+    color: #dec66d;
 }
 
 .pricing-item:hover .pricing-text .btn-style a:hover {
@@ -2330,7 +2323,7 @@ padding-bottom: 0px;
 }
 
 .practice-section ul li a:hover {
-    color: #c0b596;
+    color: #dec66d;
 }
 
 .practice-section ul li {
@@ -2389,7 +2382,7 @@ padding-bottom: 0px;
 
 .organigation-text span i {
     padding-right: 15px;
-    color: #c0b596;
+    color: #dec66d;
 }
 
 /*=============================================
@@ -2525,7 +2518,7 @@ padding-bottom: 0px;
     width: 380px;
     height: 380px;
     border-radius: 100%;
-    border: 15px solid #c0b596;
+    border: 15px solid #dec66d;
 }
 
 .Attorneys-item .Attorneys-img {
@@ -2600,7 +2593,7 @@ padding-bottom: 0px;
 }
 
 .Attorneys-info .info-outer .social li a:hover {
-    background: #c0b596;
+    background: #dec66d;
     color: #fff;
 }
 
@@ -2631,7 +2624,7 @@ padding-bottom: 0px;
 
 .education-section span i {
     padding-right: 10px;
-    color: #c0b596;
+    color: #dec66d;
 }
 
 .education-section {
@@ -2696,7 +2689,7 @@ padding-bottom: 0px;
 }
 
 .blog-page-area .blog-item .post-meta .clr {
-    color: #c0b596;
+    color: #dec66d;
 }
 
 .blog-page-area .blog-item .post-meta>li:first-child {
@@ -2742,7 +2735,7 @@ padding-bottom: 0px;
 .blog-content-2 a {
     font-size: 16px;
     text-transform: uppercase;
-    color: #c0b596;
+    color: #dec66d;
     font-weight: 600;
 
 }
@@ -2816,7 +2809,7 @@ padding-bottom: 0px;
 }
 
 .blog-content-3 a {
-    color: #c0b596;
+    color: #dec66d;
     text-transform: uppercase;
 }
 
@@ -2846,7 +2839,7 @@ padding-bottom: 0px;
 }
 
 .blog-page-area .blog-content-3 .post-meta .clr {
-    color: #c0b596;
+    color: #dec66d;
 }
 
 .pagination-wrapper {
@@ -2875,7 +2868,7 @@ padding-bottom: 0px;
 .pagination-wrapper ul li span,
 .pagination-wrapper ul li a:hover,
 .pagination-wrapper ul li span:hover {
-    background-color: #c0b596;
+    background-color: #dec66d;
     color: #fff;
 }
 
@@ -2917,7 +2910,7 @@ padding-bottom: 0px;
 }
 
 .blog-right-bar .tag-widget ul li a:hover {
-    background: #c0b596;
+    background: #dec66d;
     color: #fff;
 }
 
@@ -3012,7 +3005,7 @@ padding-bottom: 0px;
 }
 
 .blog-left-bar .tag-share .tag a:hover {
-    color: #c0b596;
+    color: #dec66d;
 }
 
 .blog-left-bar .tag-share .tag ul li {
@@ -3041,7 +3034,7 @@ padding-bottom: 0px;
 }
 
 .blog-left-bar .tag-share .share a:hover {
-    color: #c0b596;
+    color: #dec66d;
 }
 
 .blog-left-bar .tag-share ul {
@@ -3070,7 +3063,7 @@ padding-bottom: 0px;
     border-radius: 50%;
     width: 130px;
     height: 130px;
-    border: 5px solid #c0b596;
+    border: 5px solid #dec66d;
     margin-top: 14px;
 }
 
@@ -3111,7 +3104,7 @@ padding-bottom: 0px;
 }
 
 .blog-left-bar .author-box .social-lnk a:hover {
-    color: #c0b596;
+    color: #dec66d;
 }
 
 .blog-left-bar .more-posts {
@@ -3155,7 +3148,7 @@ padding-bottom: 0px;
 
 
 .blog-left-bar .more-posts a:hover .post-control-link {
-    color: #c0b596;
+    color: #dec66d;
 }
 
 .blog-left-bar .comments-area {
@@ -3232,7 +3225,7 @@ padding-bottom: 0px;
 
 .blog-left-bar .comments-area .comment-reply-link {
     font-size: 16px;
-    color: #c0b596;
+    color: #dec66d;
     float: right;
 }
 
@@ -3284,7 +3277,7 @@ padding-bottom: 0px;
 .blog-left-bar .comment-respond form textarea:focus {
     -webkit-box-shadow: none;
     box-shadow: none;
-    border-color: #c0b596;
+    border-color: #dec66d;
 }
 
 .blog-left-bar .comment-respond form textarea {
@@ -3308,7 +3301,7 @@ padding-bottom: 0px;
 
 .blog-left-bar .comment-respond .form-submit input {
     max-width: 120px;
-    background-color: #c0b596;
+    background-color: #dec66d;
     color: #fff;
     font-weight: bold;
     margin-bottom: 0;
@@ -3526,5 +3519,3 @@ pealoader css
         width: 0%;
     }
 }
-
-
