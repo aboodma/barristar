@@ -235,12 +235,30 @@
       }
       .blog-area .blog-item .post-meta li {
           font-size: 15px;
-      } 
+      }
+      .about-text  h2 ::after{
+        content: "";
+position: absolute;
+left: 281px;
+top: 92px;
+width: 557px;
+height: 2px;
+background: #cccccc;
+      }
   }
 
   /* Normal desktop :991px. */
 
   @media (min-width: 768px) and (max-width: 991px) {
+    .about-text  h2 ::after{
+      content: "";
+position: absolute;
+left: 281px;
+top: 92px;
+width: 557px;
+height: 2px;
+background: #cccccc;
+    }
       .hero {
           height: 600px;
       }
@@ -573,8 +591,11 @@
       }
 
       .title h2:before {
-          display: none;
-      }
+    display: none;
+}
+.title h2:after {
+    display: none;
+}
 
       .section-title h2:before {
           left: 45%;
@@ -646,6 +667,15 @@
   /* small mobile :576px. */
 
   @media (min-width: 576px) and (max-width: 767px) {
+    .about-text  h2 ::after{
+      content: "";
+position: absolute;
+left: 281px;
+top: 92px;
+width: 557px;
+height: 2px;
+background: #cccccc;
+    }
       .col-c {
           max-width: 33.33%;
           overflow: hidden;
@@ -730,8 +760,11 @@
       }
 
       .title h2:before {
-          display: none;
-      }
+    display: none;
+}
+.title h2:after {
+    display: none;
+}
 
       .thumb-img {
           width: 22%;
@@ -902,6 +935,11 @@
           font-size: 38px;
           line-height: 50px;
       }
+      .hero-style-1 .slide-caption h1,
+      .hero-style-2 .slide-caption h1 {
+          font-size: 38px;
+          line-height: 50px;
+      }
 
       .Attorneys-item {
           margin-bottom: 30px;
@@ -993,6 +1031,9 @@
   /* extra small mobile 320px. */
 
   @media (max-width: 575px) {
+              .title  h2 :after{
+            display: none;
+              }
       .hero {
           height: 550px;
       }
@@ -1005,7 +1046,10 @@
       .hero-style-2 .slide-caption h2 {
           font-size: 35px;
       }
-
+      .hero-style-1 .slide-caption h1,
+      .hero-style-2 .slide-caption h1 {
+          font-size: 35px;
+      }
       .hero-style-2 {
           height: 450px;
       }
@@ -1031,6 +1075,7 @@
       .slide-caption {
           z-index: 19;
           padding-top: 0px;
+          margin-left: 0;
       }
 
       .search {
@@ -1060,6 +1105,9 @@
           padding: 15px 8px;
           color: #fff;
           padding-left: 0;
+      }
+      .header-top span{
+        color : #001024;
       }
 
       .header-top ul.header-contact {
@@ -1109,8 +1157,11 @@
       }
 
       .title h2:before {
-          display: none;
-      }
+    display: none;
+}
+.title h2:after {
+display: none;
+}
 
       .thumb-img {
           width: 30%;
@@ -1557,6 +1608,7 @@
       .logo {
           margin-top: 0px;
           max-width: 163px;
+          margin-right: 39px;
       }
 
       .contact-area.section-padding {
@@ -1659,6 +1711,15 @@
 
   /* Large Mobile :480px. */
   @media only screen and (min-width: 480px) and (max-width: 575px) {
+    .about-text  h2 ::after{
+      content: "";
+position: absolute;
+left: 281px;
+top: 92px;
+width: 557px;
+height: 2px;
+background: #cccccc;
+    }
       .expert-active .owl-nav {
           display: none;
       }

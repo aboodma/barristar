@@ -45,14 +45,14 @@
         if ($(".hero-slider").length) {
             $(".hero-slider").slick({
                 autoplay: true,
-                autoplaySpeed: 6000,
-                pauseOnHover: true,
+                autoplaySpeed: 8000,
+                pauseOnHover: false,
                 arrows: true,
                 prevArrow: '<button type="button" class="slick-prev">Previous</button>',
                 nextArrow: '<button type="button" class="slick-next">Next</button>',
                 dots: true,
                 fade: true,
-                cssEase: 'linear'
+                cssEase: 'ease-in'
             });
         }
     }
@@ -79,7 +79,7 @@
         } else {
             preloader.remove();
         }
-        
+
         //Active heor slider
                 heroSlider();
     }
@@ -155,11 +155,11 @@
         });
     }
     // // stickey menu
-    $(window).on('scroll',function() {    
+    $(window).on('scroll',function() {
         var scroll = $(window).scrollTop(),
             mainHeader = $('#sticky-header'),
             mainHeaderHeight = mainHeader.innerHeight();
-        
+
         // console.log(mainHeader.innerHeight());
         if (scroll > 1) {
             $("#sticky-header").addClass("sticky");
@@ -186,7 +186,7 @@
             sliderBgSetting();
 
         });
-        
+
     /*------------------------------------------
         = POPUP VIDEO
     -------------------------------------------*/

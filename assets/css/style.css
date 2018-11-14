@@ -537,9 +537,9 @@ mobile menu
     left: 0;
     top: 0;
     * Permalink - use to edit and share this gradient: http: //colorzilla.com/gradient-editor/#151a30+14,ffffff+52,ffffff+52,f4f4f4+55,151a30+92&0.82+15,0+33,0+68,0.86+83 */
-        background: -moz-linear-gradient(left, rgba(21, 26, 48, 0.82) 14%, rgba(27, 32, 53, 0.82) 15%, rgba(138, 140, 151, 0) 33%, rgba(255, 255, 255, 0) 52%, rgba(244, 244, 244, 0) 55%, rgba(166, 167, 175, 0) 68%, rgba(75, 79, 96, 0.86) 83%, rgba(21, 26, 48, 0.86) 92%);
+        /* background: -moz-linear-gradient(left, rgba(21, 26, 48, 0.82) 14%, rgba(27, 32, 53, 0.82) 15%, rgba(138, 140, 151, 0) 33%, rgba(255, 255, 255, 0) 52%, rgba(244, 244, 244, 0) 55%, rgba(166, 167, 175, 0) 68%, rgba(75, 79, 96, 0.86) 83%, rgba(21, 26, 48, 0.86) 92%);
     background: -webkit-linear-gradient(left, rgba(21, 26, 48, 0.82) 14%, rgba(27, 32, 53, 0.82) 15%, rgba(138, 140, 151, 0) 33%, rgba(255, 255, 255, 0) 52%, rgba(244, 244, 244, 0) 55%, rgba(166, 167, 175, 0) 68%, rgba(75, 79, 96, 0.86) 83%, rgba(21, 26, 48, 0.86) 92%);
-    background: linear-gradient(to right, rgba(21, 26, 48, 0.82) 14%, rgba(27, 32, 53, 0.82) 15%, rgba(138, 140, 151, 0) 33%, rgba(255, 255, 255, 0) 52%, rgba(244, 244, 244, 0) 55%, rgba(166, 167, 175, 0) 68%, rgba(75, 79, 96, 0.86) 83%, rgba(21, 26, 48, 0.86) 92%);
+    background: linear-gradient(to right, rgba(21, 26, 48, 0.82) 14%, rgba(27, 32, 53, 0.82) 15%, rgba(138, 140, 151, 0) 33%, rgba(255, 255, 255, 0) 52%, rgba(244, 244, 244, 0) 55%, rgba(166, 167, 175, 0) 68%, rgba(75, 79, 96, 0.86) 83%, rgba(21, 26, 48, 0.86) 92%); */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d1151a30', endColorstr='#db151a30', GradientType=1);
     /* IE6-9 */
     opacity: .75;
@@ -585,63 +585,7 @@ mobile menu
     vertical-align: middle;
 }
 
-.hero .slick-prev,
-.hero .slick-next {
-    width: 50px;
-    height: 50px;
-    border: 1px solid #959595;
-    border-radius: 5px;
-    z-index: 10;
-}
 
-.hero .slick-prev {
-    left: 25px;
-}
-
-.hero .slick-prev:before {
-    font-family: "FontAwesome";
-    content: "\f104";
-    opacity: 1;
-    color: #fff;
-}
-
-.hero .slick-next {
-    right: 25px;
-}
-
-.hero .slick-next:before {
-    font-family: "FontAwesome";
-    content: "\f105";
-    opacity: 1;
-    color: #fff;
-}
-
-.hero .slick-prev:hover,
-.hero .slick-next:hover {
-    background: #dec66d;
-    border-color: #fff;
-}
-
-.hero .slick-prev:hover:before,
-.hero .slick-next:hover:before {
-    color: #fff;
-}
-
-.hero .slick-dots {
-    bottom: 30px;
-}
-
-.hero .slick-dots li {
-    margin: 0;
-}
-
-.hero .slick-dots button {
-    background-color: #dec66d;
-    width: 14px;
-    height: 14px;
-    border: 1px solid #fff;
-    border-radius: 50%;
-}
 
 .hero .slick-dots button:before,
 .hero .slick-dots button:before {
@@ -877,10 +821,36 @@ mobile menu
 }
 
 .social-1st i {
-  border: 3px solid #fff;
+  border: 5px solid #edd87a;
 padding: 31px;
 border-radius: 100%;
-color: #fff;
+color: #edd87a;
+}
+.leftword{
+  margin-top: -73px;
+
+  color: #ddd;
+
+  right: 254px;
+
+  position: absolute;
+
+  font-size: 60px;
+}
+.rightword{
+  margin-top: 30px;
+
+  color: #ddd;
+
+  line-height: 30px;
+
+  position: absolute;
+
+  left: 350px;
+
+  margin-top: 15px;
+
+  font-size: 60px;
 }
 
 /*======================================
@@ -1242,8 +1212,8 @@ color: #fff;
 }
 
 .contact-text p {
-    margin-top: 30px;
-    color: #ddd;
+
+    color: #edd87a;;
     line-height: 30px;
 }
 
@@ -1708,9 +1678,14 @@ color: #fff;
     margin-top: 15px;
 }
 .social-marks span{
-  border: 3px solid #fff;
-    border-radius: 100%;
+  border: 0x solid #fff;
+    border-radius: 0 %;
+    background-color: #dec66d;
+    padding: 3px;
+    padding-left: 4px;
+    padding-right: 4px;
 }
+
 .social-marks span:hover{
     background: #f2de7e;
 
