@@ -202,6 +202,7 @@ header-style
     display: inline-block;
     padding: 15px;
     color: #151a30;
+
 }
 
 .header-top li i {
@@ -212,6 +213,9 @@ header-style
 .header-contact li:first-child {
     position: relative;
 }
+
+
+
 
 .header-contact li:first-child:before {
     position: absolute;

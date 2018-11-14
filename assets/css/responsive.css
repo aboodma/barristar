@@ -1707,6 +1707,22 @@ display: none;
       .prising-area {
           padding: 70px 0 40px;
       }
+      .leftword{
+        margin-top: -59px;
+      color: #ddd;
+      right: 51px;
+      position: absolute;
+      font-size: 17px;
+      }
+      .rightword{
+        margin-top: 30px;
+color: #ddd;
+line-height: 30px;
+position: absolute;
+left: 46px;
+margin-top: 28px;
+font-size: 17px;
+      }
   }
 
   /* Large Mobile :480px. */
